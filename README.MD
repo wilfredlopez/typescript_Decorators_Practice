@@ -12,4 +12,4 @@ This is compiles by webpack in a single file bundle.js
 
 ## Build
 
-``yarn build`or`npm run build`
+`yarn build` or `npm run build`
