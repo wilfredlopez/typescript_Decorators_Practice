@@ -1,0 +1,26 @@
+{
+  "name": "tsdecorators",
+  "version": "1.0.0",
+  "description": "testing ts decorators",
+  "main": "dist/index.js",
+  "author": "Wilfred Lopez",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js",
+    "dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "typescript": "^3.7.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^6.2.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  }
+}
